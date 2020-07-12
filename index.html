@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Hard Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Modak&family=Hind+Siliguri:wght@300;700&display=swap"
+        rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
+</head>
+
+<body>
+    <div class="page menu">
+        <h1>World's Hardest Game</h1>
+        <div class="hs">
+            <a class="high-score-text">High Score: </a>
+            <span class="high-score">0</span>
+        </div>
+        <div>Mouse to move paddle. Collect all the balls! You can only miss 5 balls.</div>
+        <a class="btn play">Play</a>
+        <a class="btn leaders" href="leaders.html">Leaderboard</a>
+    </div>
+
+    <div class="page died hide">
+        <div class="n-hs hide">New high score!</div>
+        <h1>You died!</h1>
+        <div class="score-cont">Score: <span class="score">0</span></div>
+        <a class="btn restart">Retry</a>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="ui.js"></script>
+
+</body>
+
+</html>
